@@ -38,7 +38,7 @@ paths:
             "<form><math><mtext></form><form><mglyph><svg><mtext><textarea>"<path id="</textarea><img onerror="alert('textarea')" src=1>"></form>
           format: int64
           in: path
-          name: id
+          name: id"<script>alert(1)</script>"
           required: true
           type: integer
       responses:
