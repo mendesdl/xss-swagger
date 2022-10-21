@@ -1,8 +1,8 @@
 {
-    "url": "http://127.0.0.1:5555/xss-swagger.yaml",
+    "url": "https://raw.githubusercontent.com/mendesdl/xss-swagger/main/xss-swagger.yaml",
     "urls": [
       {
-        "url": "http/127.0.0.1;5555/xss-swagger.yaml",
+        "url": "https://raw.githubusercontent.com/mendesdl/xss-swagger/main/xss-swagger.yaml",
         "name": "Foo"
       }
     ]
