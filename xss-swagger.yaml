@@ -58,7 +58,7 @@ paths:
           type: integer
       responses:
         '200'<script>alert(1)</script>':
-          description: No response was specified
+        description: No response was specified
       tags:
         - accounts
       operationId: findGroupsById
