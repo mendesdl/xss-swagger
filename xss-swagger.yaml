@@ -3,7 +3,7 @@ info:
   title: Classic API Resource Documentation
   description: |
     <math><mtext><table><mglyph><style><!--</style><img title="--&gt;&lt;/mglyph&gt;&lt;img&Tab;src=1&Tab;onerror=alert(1)&gt;">
-    <math><mtext><table><mglyph><style><![CDATA[</style><img title="]]&gt;&lt;/mglyph&gt;&lt;img&Tab;src=1&Tab;onerror=alert(1)&gt;">
+    <math><mtext><table onLoad="alert(1)"><mglyph><style><![CDATA[</style><img title="]]&gt;&lt;/mglyph&gt;&lt;img&Tab;src=1&Tab;onerror=alert(1)&gt;">
     <img src onerror=alert(1)>
     <img id=x tabindex=1 onfocusin=alert(1)></img>
     <img id=x tabindex=1 onfocus=alert(1)></img>
