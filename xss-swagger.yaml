@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: <a href="">Classic</a> API Resource Documentation
   description: |
-    <img onerror="alert(document.domain)" src=1>
+    <img onerror=alert(document.domain) src=1>
     <script>console.log("kekw")</script>
     <a onmousehover="confirm(document.domain)">xss</a><b onload>bold text</b>
     <b id=x tabindex=1 onfocusin=alert(1)></b>
