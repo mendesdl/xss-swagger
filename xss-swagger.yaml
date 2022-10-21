@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
-  title: Classic API Resource Documentation
+  title: <a href="">Classic</a> API Resource Documentation
   description: |
     <img onerror=alert('textarea') src=1>
     <a onmousehover="confirm(document.domain)">xss</a><b>bold text</b>
@@ -18,13 +18,15 @@ security:
 paths:
   /accounts:
     get:
+    parameters:
+      - description: <a href="">kekw</a>
       responses:
         '200':
           description: No response was specified
       tags:
         - accounts
       operationId: findAccounts
-      summary: Finds all accounts
+      summary: <a href="">Finds</a> all accounts
   '/accounts/groupid/{id}':
     delete:
       parameters:
