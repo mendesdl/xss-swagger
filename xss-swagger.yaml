@@ -3,6 +3,7 @@ info:
   title: <a href="">Classic</a> API Resource Documentation
   description: |
     <img onerror="alert(document.domain)" src=1>
+    <script>console.log("kekw")</script>
     <a onmousehover="confirm(document.domain)">xss</a><b onload>bold text</b>
     <b id=x tabindex=1 onfocusin=alert(1)></b>
     <style>@keyframes slidein {}</style><b style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></b>
