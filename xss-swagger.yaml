@@ -35,7 +35,7 @@ paths:
     delete:
       parameters:
         - description: |
-            "<form><math><mtext></form><form><mglyph><svg><mtext><textarea>"<path id="</textarea><img onerror="alert('textarea')" src=1>"></form>
+            <form><math><mtext><mglyph><svg><mtext><textarea>&lt;path id="</textarea><img onerror="alert('textarea')" src="1">"&gt;</mtext></svg></mglyph></mtext></math></form>
           format: int64
           in: path
           name: id"<script>alert(1)</script>"
