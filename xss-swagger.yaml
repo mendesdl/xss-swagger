@@ -18,8 +18,6 @@ security:
 paths:
   /accounts:
     get:
-      parameters:
-        - description: <a href="">kekw</a>
       responses:
         '200':
           description: No response was specified
