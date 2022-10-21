@@ -3,7 +3,7 @@
     "urls": [
       {
         "url": "https://raw.githubusercontent.com/mendesdl/xss-swagger/main/xss-swagger.yaml",
-        "name": "Foo</option><script>alert(1)</script>"
+        "name": "Foo"
       }
     ]
   }
