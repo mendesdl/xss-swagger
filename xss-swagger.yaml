@@ -3,7 +3,7 @@ info:
   title: Classic API Resource Documentation
   description: |
     <img onerror=alert('textarea') src=1>
-    <a onmousehover="confirm(document.domain)">
+    <a onmousehover="confirm(document.domain)">xss</a>
 
   version: production
 basePath: /JSSResource/
